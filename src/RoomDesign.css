@@ -1,0 +1,44 @@
+.main-design-cont {
+  position: relative;
+  align-self: flex-start;
+}
+
+.main-image {
+  width: 350px;
+  object-fit: cover;
+  margin-right: 20px;
+  transition: height .3s ease;
+}
+
+.design-overlay {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.overlay-left {
+  padding: 20px;
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+.first-line {
+  color: #616161;
+  font-size: 18px;
+}
+
+.second-line {
+  font-size: 26px;
+  font-weight: 500;
+  color: #303030;
+}
+
+.overlay-right {
+  cursor: pointer;
+  align-self: flex-end;
+  height: max-content;
+  width: 30px;
+  padding: 4px;
+  background-color: #e89f71;
+}

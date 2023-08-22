@@ -1,0 +1,25 @@
+.tip-main-cont {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.tip-image {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.tip-desc {
+  padding: 10px;
+}
+
+.tip-header {
+  font-size: 26px;
+  font-weight: 500;
+  color: #303030;
+}
+
+.tip-date {
+  margin-top: 8px;
+  color: #616161;
+}

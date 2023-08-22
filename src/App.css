@@ -1,0 +1,488 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-info-cont {
+  width: 100%;
+  background-color: #f9f1e6;
+}
+
+.upper-line {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.line-left {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.name-lbl {
+  margin-bottom: 3px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.category-btn {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.category-text {
+  margin-bottom: 3px;
+}
+
+.category-img {
+  margin-top: 3px;
+  margin-left: 4px;
+  width: 18px;
+  height: 18px;
+}
+
+.search-input-cont {
+  margin: 5px;
+  margin-left: 30px;
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-img {
+  width: 20px;
+  height: 20px;
+}
+
+.search-input {
+  width: 450px;
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+.line-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.right-btn {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.wishlist-btn {
+  width: 34px;
+  height: 34px;
+}
+
+.products-btn {
+  width: 25px;
+  height: 25px;
+}
+
+.user-btn {
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.shop-info-cont {
+  position: relative;
+}
+
+.pictures-container {
+  scroll-behavior: smooth;
+  transition: scroll-behavior .3s ease;
+  margin-top: 35px;
+  padding-top: 80px;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.overlay {
+  z-index: 1;
+  width: calc(100% - 80px);
+  position: absolute;
+  top: 0;
+  left: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.shop-overlay {
+  padding: 60px;
+  width: 350px;
+  background-color: rgb(255, 255, 255, 0.9);
+}
+
+.shop-lbl {
+  color: #303030;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.shop-desc {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #7d7d7d;
+}
+
+.shop-btn {
+  margin-top: 20px;
+  background-color: #e89f71;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 23px;
+}
+
+.shop-btn:hover {
+  background-color: #e8884d;
+}
+
+.pages-info-cont {
+  height: 80px;
+  width: calc(100% - 500px);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pages {
+  display: flex;
+  flex-direction: row;
+}
+
+.page {
+  border: 1.5px transparent solid;
+  padding: 5px;
+  height: max-content;
+  border-radius: 11px;
+  margin-left: 20px;
+}
+
+.page-index {
+  background-color: #dedede;
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+}
+
+.pages-btns {
+  position: absolute;
+  right: 80px;
+}
+
+.page-btn {
+  padding: 5px;
+  border-radius: 22.5px;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.company-info-cont {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.component-image {
+  width: 50px;
+  height: 50px;
+}
+
+.info-component {
+  display: flex;
+  flex-direction: row;
+}
+
+.component-right {
+  margin-left: 10px;
+}
+
+.component-header {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.component-description {
+  font-size: 18px;
+  color: #7d7d7d;
+}
+
+.products-lbl {
+  font-size: 50px;
+  font-weight: 700;
+  width: 100%;
+  text-align: center;
+  color: #303030;
+}
+
+.products-cont {
+  margin-top: 40px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.more-btn {
+  color: #e89f71;
+  background-color: #fff;
+  font-size: 16px;
+  padding: 13px 70px 13px 70px;
+  border: 1px solid #e89f71;
+  width: max-content;
+  align-self: center;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.more-btn:hover {
+  color: #fff;
+  background-color: #e89f71;
+}
+
+.btn-cont {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.rooms-design-cont {
+  margin-bottom: 40px;
+  position: relative;
+  background-color: #f9f1e6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px;
+  overflow-x: hidden;
+}
+
+.design-left {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  padding-left: 80px;
+  width: 350px;
+  background-color: #f9f1e6;
+  height: 100%;
+}
+
+.left-header {
+  font-size: 32px;
+  font-weight: 700;
+  color: #303030;
+}
+
+.left-description {
+  color: #616161;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.left-btn {
+  color: #fff;
+  background-color: #e89f71;
+  width: max-content;
+  padding: 15px 30px 15px 30px;
+  cursor: pointer;
+}
+
+.design-right {
+  width: calc(100% - 470px);
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 510px;
+}
+
+.room-design {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: transform .3s ease;
+}
+
+.rooms-pages {
+  position: absolute;
+  bottom: 60px;
+  left: 900px;
+  display: flex;
+  flex-direction: row;
+}
+
+.page-btns {
+  margin-right: 20px;
+  margin-left: 20px;
+  width: calc(100% - 40px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 3;
+  position: absolute;
+}
+
+.room-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.room-page-img {
+  position: relative;
+  left: 3px;
+  width: 30px;
+}
+
+.tips-main-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.tips-btns {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 960px;
+  position: absolute;
+}
+
+.tips-cont {
+  padding-bottom: 5px;
+  display: flex;
+  width: 1030px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  transition: scroll-behavior .3s ease;
+}
+
+.tips-pages {
+  justify-content: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 80px;
+}
+
+.company-contacts {
+  border-top: 2px solid #d1d1d1;
+  padding-top: 50px;
+  margin-left: 80px;
+  margin-bottom: 60px;
+  margin-right: 80px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 40px
+}
+
+.column-header {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+
+.column-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  color: #616161;
+  font-size: 17px;
+}
+
+.column-link {
+  cursor: pointer;
+}
+
+.column-link:hover {
+  text-decoration: underline;
+}
+
+.column-image {
+  width: 20px;
+  height: 20px;
+}
+
+.email-input {
+  background-color: #f4f5f7;
+  outline: none;
+  border: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.submit-btn {
+  width: 30px;
+  padding: 4px;
+  background-color: #e89f71;
+  cursor: pointer;
+}
+
+.furniture-cont {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-gap: 20px;
+  grid-auto-rows: 250px;
+  justify-content: center; 
+  margin-bottom: 80px;
+}
+
+.furniture-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  float: left;  
+  margin: 15px;
+}
+
+.share-lbl {
+  text-align: center;
+  font-size: 22px;
+  color: #616161;
+}
